@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="corso1.css">
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="corso.css">
+    <nav class="menu">
+        <ul>
+            <li><a href="sito.html">Ripasso dELLE Liste</a></li>
+            <li><a href="chisiamo.html">Chi siamo</a></li>
+            <li><a href="servizi.html">Servizi</a></li>
+            <li><a href="pagina2.html">Contatti</a></li>
+        </ul>
+      </nav>
+
+
+
+      2 pagine collegate fra loro fatto
+      2 section 
+      1 section container
+      1 form
+      1 lista 
+      1 tabbella
+      1 collegamento ad un sito esterno

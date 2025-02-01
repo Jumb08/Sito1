@@ -1,0 +1,36 @@
+dt{
+    color: black;
+    font-weight: bold;
+}
+/* Stile principale per il menu */
+.menu {
+    position: absolute;
+    top: 10px; /* Distanza dal margine superiore */
+    right: 10px; /* Distanza dal margine destro */
+  }
+  
+  .menu ul {
+    list-style: none; 
+    display: flex;
+    gap: 15px; /* Spaziatura tra le voci del menu */
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease; /* Effetto al passaggio del mouse */
+  }
+  
+  .menu a:hover {
+    color: #007BFF; /* Colore al passaggio del mouse */
+  }
+  
+  table, th, td{
+border: 3px solid; border-color: black;
+
+  }
+  caption{
+font-weight: bold;
+
+  }

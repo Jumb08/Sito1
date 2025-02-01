@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="corso1.css">
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="corso.css">
+    <nav class="menu">
+      <ul>
+        <li><a href="hub.html">Hub Principale</a></li>
+        <li><a href="6.html">Definizione</a></li>
+        <li><a href="7.html">Registrazione</a></li>
+      </ul>
+  </nav>
+
+      
+
+
+      <!DOCTYPE html>
+<html>
+    <head>
+<meta charset="UTF-8">
+<h1 title="Scritta">forms</h1>
+<title>forms</title>
+    </head>
+</html>
+<style>
+    form{
+        header
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 20px;
+           max-width: 400px;
+           margin: 20px;
+           padding: 20px;
+            border: 1px solid color black;
+         border-radius: 8px;
+         background-color:aquamarine    
+   
+        }
+        
+        label{
+        font-weight: bold;
+        display: block;
+        margin-bottom: 5px;
+
+    }
+input[type="text"], input [type="email"], [type="password"]{
+
+    width: 100%;
+    padding: auto;
+    margin-bottom: 10px;
+    border: 1px solid color black;
+    border-radius: 4px;
+}
+input[type="radio"], input [type="checkbox"]
+
+{
+margin-right: 10px;
+
+}
+
+
+
+button{
+background-color: burlywood;
+color: white;
+padding: 10px 20px;
+border: none;
+border-radius:4px;
+cursor:pointer;
+
+}
+button:hover{
+
+background-color: blanchedalmond;
+color: lightcoral;
+border-radius: 4px;
+
+
+}
+body {
+            background-color: #a1c9ec; /* Azzurro chiaro */
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+
+        
+</style>
+
+
+
+<form action="url_destinazione" method="post">
+
+    <label for="nome"> Nome:  </label>
+    <input type="text" id="Nome" name="nome" placeholder="insert the name">
+
+    <label for="Cognome"> Cognome:  </label>
+    <input type="text" id="Cognome" name="Cognome" placeholder="insert the surname">
+
+    <label for="email">E mail</label>
+<input type="email" id="email" name="email" placeholder="Insert the e-mail"required> 
+
+<label for="password">password</label>
+<input type="password" id="password" name="password" placeholder="Insert the password"required>
+
+<!--Email e pass--->
+
+<p>Seleziona il tuo genere</p>
+<input type="radio" id="maschio" name="genere" value="maschio">
+<label for="maschio">maschio</label>
+<input type="radio" id="Femmina" name="genere" value="Femmina">
+<label for="Femmina">Femmina</label>
+
+<!--Gender radio-->
+
+<p>Seleziona i tuoi interessi</p>
+<input type="checkbox" id="sport" name="Interesse" value="sport">
+<label for="sport">Sport</label>
+
+<input type="checkbox" id="Musica" name="Interesse" value="Musica">
+<label for="Musica">Musica</label>
+
+<input type="checkbox" id="soldi" name="Interesse" value="soldi">
+<label for="Soldi">Soldi</label>
+<!---checkbox-->
+
+ 
+
+
+<label for="lingua" Seleziona la tua lingua preferita></label>
+<select  id="lingua" name="lingua">
+    <option value="italiano">Italiano</option>
+    <option value="Spagnolo">Spagnolo</option>
+    <option value="Francesce">Francesce</option>
+    <option value="Tedesco">Tedesco</option>
+    <option value="inglese">inglese</option>
+    <option value="arabo">arabo</option>
+    <option value="afghano">afghano</option>
+
+</select>
+
+
+<button type="submit">invia</button> 
+
+
+</form>
